@@ -1,0 +1,221 @@
+        /* reset css */
+* { 
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+}
+a { 
+    text-decoration: none; 
+    color: inherit;
+}
+  /* ------- Stylee kodlar ----- */
+  :root{
+    --yasil:#a1c927;
+    --qirmizi:#fd634d;
+  }
+.bgag{background: #fff;}
+.bgyasil{background-color:var(--yasil)}
+.bgqirmizi{background:var(--qirmizi)}
+.txtag{color: #fff;}
+.txtyasil{color:var(--yasil)}
+.txtqirmizi{color: var(--qirmizi)}
+.vh50{min-height: 50vh}
+.artpadding{padding: 50px 40px}
+.txtcenter{text-align: center;}
+
+.fa-facebook{ color: #2e3092;}
+.fa-twitter{color: #00adef;}
+.fa-youtube{color: #ed3123;}
+.fa-linkedin-in{color: #16198f; }
+
+#art4{padding: 80px 0}
+#art4 article{padding: 40px 10px}
+#art4 i{font-size:3em; text-align: right;}
+#art4{padding: 80px 0}
+#arti{text-align: right;}
+#fitnessfirst { background: url('../img/fitnessfirst.jpg') center/cover }
+#yourbody { background: url('../img/youbody.jpg') center/cover }
+#lifestyle { background: url('../img/lifestyle.jpg') center/cover }
+#summeroffun { background: url('../img/summeroffun.jpg') center/cover }
+#grape { background: url('../img/grape.jpg') center/cover }
+#mango { background: url('../img/mango.jpg') center/cover }
+#mainbot {
+    background: url('../img/footerbg.jpg') center/cover;
+    height: 100vh;
+    text-align: center;}
+  header {
+    position: relative;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') 55%/cover;
+    text-align: center;
+} 
+
+#nav{
+    padding: 40px 50px;
+}
+#menu{
+    padding: 1em 0 0 0;
+}
+#menu li a{
+    font: .8em'Avenir Next Rounded Std';
+    text-transform: uppercase;
+}
+#title{
+    position: absolute;
+    width: 100%;
+    bottom: 16.5vh;
+}
+h1,h5{font-family: 'Myriad Pro';
+    font-weight: 400;
+}
+h1,h2,h5,h6{
+    text-transform: uppercase;
+}
+h1 { font-size: 2em }
+h2 { font: 300 2.1em 'Open Sans' }
+h3 { font: normal 1.5em 'Open Sans'; padding: 1em 0 0 0 }
+h5 { font-size: 1em; letter-spacing: 3px }
+h6 { font: 400 .9em Montserrat }
+ #main-bottxt{
+    display: inline;
+  
+    
+}
+#main-bottxt{
+    padding: 150px;
+}
+#mainbot h1{
+    color: #fff;
+    font: 40px "Open Sans",400;
+    text-align: cenjuter;
+    text-transform:none;
+    
+}
+#mainbot p{
+text-align: center;
+margin-top: 37px;
+line-height: 23px;
+font: 1em "Open Sans",400;
+color: #fff;
+
+}
+footer{
+background:#0c1119;
+color: #fff;
+display: block;
+height:100vh;
+}
+.footmain{
+    padding: 34px 0 10px 10px;
+}
+.footmain h5{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}
+.footmain p{
+   font: 14px "Open Sans";
+    color: #8297a7;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.footmain a{
+    font-size: 40px;
+    padding: 10px 10px;
+}
+.bottom{
+    text-align: center;
+  }
+.bottom .input1{
+    width: 90%;
+    height: 45px;
+    margin: 10px 0;
+  }
+.bottom .input2{
+    width: 90%;
+    height: 45px;
+    margin-bottom: 10px;
+    
+}
+  .bottom a{
+    display: inline-block;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+  }
+  .bottom a i{
+    font-size: .9em;
+    margin-left: 5px;
+    padding: 15px 0;
+  }
+
+/* Desktop version */
+@media only screen and (min-width: 768px){
+    header{ text-align: initial;}
+    #menu{float: right;}
+    #menu li{
+        display: inline-block;
+        margin:  0 0 0 4vw;
+    }
+
+    #title{
+        width: initial;
+        left: 7vw;
+    }
+    h1{font-size: 2.5em;}
+    h5{text-align: left; padding: 10px 20px;}
+    .footmain{
+        display: flex;
+        justify-content: space-around;
+      }
+      .footmain div{
+        width: 33.33%;
+       
+      }
+      .bottom{
+        margin-right: 80px;
+    
+      }
+      .bottom .input1{
+        border-radius: 5px 5px;
+        width: 200px;
+        height: 45px;
+      }
+       .bottom .input2{
+        border-radius: 5px 5px;
+        width: 337px;
+        height: 45px;
+    }
+      .bottom a{
+        border-radius: 5px 5px;
+        display: inline-block;
+        width: 185px;
+        height: 45px;
+        padding: 0 20px;
+      }
+    .row::after{
+        display: table;
+        content: '';
+        clear: both;
+    }
+   .col25{width: 25%;}
+   .col33{width: 33.33%;}
+   .col66{width: 66.66%;}
+   .fleft{float: left;}
+   .fright{float: right;}
+   .container {
+    max-width: 1180px;
+    margin: auto;
+  }
+}
